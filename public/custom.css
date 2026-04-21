@@ -1,0 +1,103 @@
+body {
+    background-image: url("Dreamy_forest_with_glowing_light.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Nunito', sans-serif;
+    font-size:small;
+    font-variant: small-caps;
+    text-align: left;
+    letter-spacing: 4px;
+    padding: 0%;
+    color: #123D36;
+    padding-left: #123D36;
+}
+
+#profile {
+    width: 45%;
+    height: 100%;
+    border-radius: 15px;
+    float: left;
+    padding: 4%;
+}
+
+.left {
+    background-color: #123D36; /* Left pillar color */
+    float: left;
+    height: 100%;
+    width: 50px;
+}
+
+.right {
+    background-color: #123D36; /* Left pillar color */
+    float: right;
+    height: 100%;
+    width: 50px;
+}
+
+.main {
+    margin-left: 200px; /* Same as sidebar width */
+    padding: 20px;
+}
+
+#name {
+    color: #F2F2F2;
+    border-color: #F2F2F2;
+    width: 200px;
+    height: 28px;
+    clip-path: inset(0 round 10px);
+    box-shadow: 0 0 20px;
+}
+
+#subject {
+    color: #F2F2F2;
+    border-color: #F2F2F2;
+    width: 200px;
+    height: 28px;
+    clip-path: inset(0 round 10px);
+    box-shadow: 0 0 20px;
+}
+
+#email {
+    color: #F2F2F2;
+    border-color: #F2F2F2;
+    width: 200px;
+    height: 28px;
+    clip-path: inset(0 round 10px);
+    box-shadow: 0 0 20px;
+}
+
+#message {
+    color: #F2F2F2;
+    border-color: #F2F2F2;
+    width: 200px;
+    height: 28px;
+    clip-path: inset(0 round 10px);
+    box-shadow: 0 0 20px;
+    padding-bottom: 80px;
+    padding-top: 12px;
+}
+
+::placeholder {
+    color: #123D36;
+}
+
+label {
+    text-align: left;
+    container-name: inherit;
+}
+
+#submit {
+    background-color: #123D36;
+    clip-path: inset(0 round 10px);
+    color: #F2F2F2;
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    font-weight: 1000;
+}
+
+h5 {
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+    letter-spacing: 1px;
+}
