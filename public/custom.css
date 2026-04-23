@@ -7,16 +7,15 @@ body {
     font-size:small;
     font-variant: small-caps;
     text-align: left;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     padding: 0%;
     color: #123D36;
-    padding-left: #123D36;
 }
 
 #profile {
     width: 45%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 30px;
     float: left;
     padding: 4%;
 }
@@ -24,20 +23,33 @@ body {
 .left {
     background-color: #123D36; /* Left pillar color */
     float: left;
-    height: 100%;
-    width: 50px;
+    width: 40px;
+    padding: 19px;
+    position: fixed;
+    top: 0;
+    right: 1;
+    bottom: 0;
+    overflow-y: auto;
 }
+
 
 .right {
     background-color: #123D36; /* Left pillar color */
     float: right;
-    height: 100%;
-    width: 50px;
+    width: 40px;
+    padding: 19px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
 }
 
 .main {
+    flex: 1;
     margin-left: 200px; /* Same as sidebar width */
     padding: 20px;
+    margin-right: 200px;
 }
 
 #name {
@@ -100,4 +112,40 @@ h5 {
     font-family: 'Nunito', sans-serif;
     padding: 20px;
     letter-spacing: 1px;
+}
+
+.div1 {
+    background-color: #EEDAC3;
+    width: 30%;
+    float: left;
+    clip-path: inset(0 round 25px);
+    text-align: left;
+    content: icon;
+    margin-left: 178px;
+    border: 20%;
+    padding: 0%;
+}
+
+.div2 {
+    background-color: #EEDAC3;
+    width: 30%;
+    float: right;
+    clip-path: inset(0 round 25px);
+    text-align: center;
+    margin-right: 178px;
+    padding: 0%;
+    border: 20%;
+}
+
+.footer-banner {
+    width: 100%;
+    height: 30px; /* Adjust height as needed */
+    background-image: url("light_wood_banner.png"); 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    opacity: 98%;
 }
