@@ -6,19 +6,9 @@ body {
     font-family: 'Nunito', sans-serif;
     font-variant: small-caps;
     text-align: left;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     padding: 0%;
     color: #123D36;
-}
-
-#profile {
-    width: 50%;
-    height: 35%;
-    border-radius: 30px;
-    float: left;
-    padding: 3%;
-    margin-right: 2%;
-    margin-bottom: -6%;
 }
 
 .left {
@@ -118,8 +108,21 @@ h3 {
 
 h4 {
     font-family: 'Nunito', sans-serif;
-    padding: -1%;
     letter-spacing: 1px;
+}
+
+h5 {
+    letter-spacing: 1px;
+}
+
+#profile {
+    width: 50%;
+    height: 35%;
+    border-radius: 30px;
+    float: left;
+    padding: 3%;
+    margin-right: 2%;
+    margin-bottom: -2%;
 }
 
 .div1 {
@@ -132,6 +135,7 @@ h4 {
     margin-left: 168px;
     border: 20%;
     padding: 2%;
+    padding-bottom: -5%;
     font-size: 100%;
     color: #123D36;
     margin-bottom: -1%;
@@ -145,6 +149,7 @@ h4 {
     text-align: center;
     margin-right: 168px;
     padding: 2%;
+    padding-bottom: -5%;
     font-size: 100%;
     margin-bottom: -1%;
 
