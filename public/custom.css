@@ -129,7 +129,7 @@ h5 {
     background-color: #EEDAC3;
     width: 30%;
     float: left;
-    clip-path: inset(0 round 25px);
+    border-radius: 4%;
     text-align: left;
     content: icon;
     margin-left: 168px;
@@ -139,20 +139,21 @@ h5 {
     font-size: 100%;
     color: #123D36;
     margin-bottom: -1%;
+    box-shadow: 15px -5px 5px rgba(18, 61, 54, 0.19);
 }
 
 .div2 {
     background-color: #EEDAC3;
     width: 30%;
     float: right;
-    clip-path: inset(0 round 25px);
+    border-radius: 4%;
     text-align: center;
     margin-right: 168px;
     padding: 2%;
     padding-bottom: -5%;
     font-size: 100%;
     margin-bottom: -1%;
-
+    box-shadow: -15px -5px 5px rgba(18, 61, 54, 0.19);
 }
 
 .footer-banner {
