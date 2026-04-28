@@ -125,6 +125,19 @@ h5 {
     margin-bottom: -2%;
 }
 
+.daylight {
+    border-radius: 50%;
+    float: left;
+    margin-left: 3%;
+}
+
+.nightime {
+    border-radius: 50%;
+    float: right;
+    margin-right: 3%;
+
+}
+
 .div1 {
     background-color: #EEDAC3;
     width: 30%;
