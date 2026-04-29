@@ -131,6 +131,13 @@ h5 {
     margin-left: 3%;
 }
 
+button {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
 .nightime {
     border-radius: 50%;
     float: right;
